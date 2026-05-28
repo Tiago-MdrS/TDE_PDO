@@ -21,6 +21,5 @@ public class CalculadoraTests
     {
         // INSTRUÇÃO: Para gerar o Run #1 (erro proposital), troque 5 por 999 aqui,
         // faça o push, aguarde o pipeline falhar, depois volte para 5 e faça outro push.
-        Assert.Equal(999, _calc.Divisao(10, 2));
-    }
+        Assert.Equal(5, _calc.Divisao(10, 2));    }
 }

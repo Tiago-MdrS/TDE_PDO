@@ -69,3 +69,6 @@ dotnet test --verbosity normal
 2. Ativar **Require status checks to pass before merging**
 3. Selecionar o check `build-and-test`
 4. Salvar
+
+
+## Atualização do pipeline
